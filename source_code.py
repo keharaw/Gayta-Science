@@ -1,3 +1,4 @@
+# GETTING TWEETS FROM THE TWITTER API
 #importing required packages
 import config
 import tweepy
@@ -62,7 +63,7 @@ df2 = pd.read_csv('sample_15_dec_1.csv')
 df_merged = pd.concat([df1, df2])
 df_merged.to_csv('lgbt_world_cup_tweets.csv', index=False)
 
-# Describing Data
+# DESCRIBING DATA
 
 # importing the libraries that we will use to visualise the data.
 import matplotlib.pyplot as plt 
@@ -126,34 +127,10 @@ plt.savefig("df_both_language_pie_chart.png", bbox_inches='tight')
 # Show the pie chart
 plt.show()
 
-# Doing the same but for World Cup only tweets
-
-plot_df3 = (
-     df_wc.groupby(pd.Grouper(key="lang"))
-       .apply(lambda x: pd.Series({"count": len(x), "pctg": f"{100*(len(x)/df_wc.shape[0]):.2f}"})).reset_index()
-)
-
-# turning percentage into float
-plot_df3["pctg"] = plot_df3["pctg"].astype(float)
-
-print(plot_df3)
-
-plt.figure(figsize=(10,10))
-
-# Plot the pie chart
-plt.pie(plot_df3["count"],autopct=None, labels=None)
-
-# Format the labels
-labels = ["{} ({:.2f}%)".format(l, p) for l, p in zip(plot_df3["lang"], plot_df3["pctg"])]
-
-
-# Add a legend to the pie chart
-plt.legend(plot_df3["lang"], title="Languages", loc="upper left", bbox_to_anchor=(1,1), ncol=2, labels=labels)
-
+# Do the same but for World Cup only tweets inside df_wc and saving the image.
 plt.savefig("df_wc_language_pie_chart.png", bbox_inches='tight')
 
-# Show the pie chart
-plt.show()
+
 
 # CLEANING TWEETS AND CREATING VISUALISATIONS
 
@@ -312,7 +289,7 @@ df_lgbt['clean_tweet'] = list(map(to_string, df_lgbt['clean_tweet_list']))
 df_lgbt
 
 # Saving as CSV
-df.to_csv('final_clean_tweets_lgbt.csv', index=False)
+df_lgbt.to_csv('final_clean_tweets_lgbt.csv', index=False)
 
 # Create Dictionary
 id2word = gensim.corpora.Dictionary(df_lgbt['clean_tweet_list'])
@@ -370,7 +347,8 @@ contents = pd.Series(tweets)
 df_topics['text'] = df_lgbt['text']
 df_topics
 
-# Repeat above code with the only world cup dataset (world_cup_no_lgbt_tweets.csv)
+# Repeat above code with the only world cup datframe df_wc and save as cleaned tweets in csv for records.
+df_wc.to_csv('final_clean_tweets_wc.csv', index=False)
 
 # CREATING A STYLECLOUD
 # Creating a new DataFrame with only the required column
@@ -394,6 +372,79 @@ stylecloud.gen_stylecloud(file_path='clean_lgbt_column.csv',
 from IPython.display import Image
 Image(filename='stylecloud_lgbt.png')
 
-# Repeated the above code to create a second stylecloud only including the worldcup dataset
+# Repeated the above code to create a second stylecloud with the world cup dataset df_wc.
+
+# CO-OCCURRENCE OF WORDS
+
+# Import required packages
+import os
+import seaborn as sns
+import itertools
+import collections
+from nltk.util import bigrams
+import networkx as nx
+sns.set(font_scale=1.5)
+sns.set_style("whitegrid")
+
+# create list of tweets
+tweets = df_lgbt['clean_tweet'].tolist()
+
+# Create list of lists containing bigrams in tweets
+terms_bigram = [list(bigrams(tweet.split())) for tweet in tweets]
+
+# Flatten list of bigrams in clean tweets into a list
+bigrams = list(itertools.chain(*terms_bigram))
+
+# Create counter of words in clean bigrams 
+bigram_counts = collections.Counter(bigrams)
+
+# Create a dataframe of the 20 most common bigrams and their frequencies. This ensures readability of the resulting plots.
+bigram_df = pd.DataFrame(bigram_counts.most_common(20),
+                             columns=['bigram', 'count'])
+# view the dataframe
+bigram_df
+
+# Create dictionary of bigrams and their counts
+d = bigram_df.set_index('bigram').T.to_dict('records')
+
+# Create network plot to show the co-occurance of words within tweets
+G = nx.Graph()
+
+# Create connections between nodes
+for k, v in d[0].items():
+    G.add_edge(k[0], k[1], weight=(v * 10))
+
+ig, ax = plt.subplots(figsize=(10, 10))
+
+pos = nx.spring_layout(G, k=5)
+
+#Plot networks
+nx.draw_networkx(G, pos,
+font_size=16,
+width=3,
+edge_color='grey',
+node_color='purple',
+with_labels = False,
+ax=ax)
+
+#Create offset labels to improve readability and avoid overlapping as much as possible.
+for key, value in pos.items():
+    x, y = value[0]+.135, value[1]+.045
+    ax.text(x, y,
+    s=key,
+    bbox=dict(facecolor='white', alpha=0.8),
+    horizontalalignment='center', fontsize=13)
+    nx.draw_networkx_nodes(G, pos, nodelist=[key], node_size=300, node_color='purple', ax=ax)
+    # added spacing
+    pos[key][0] += 0.5
+    
+
+# save and view
+plt.savefig("bigram_lgbtwc.png", bbox_inches='tight')
+
+plt.show()
+
+# Repeat the same code for the world cup dataset (world_cup_no_lgbt_tweets.csv)
+
 
 
