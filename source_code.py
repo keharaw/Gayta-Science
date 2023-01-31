@@ -341,9 +341,7 @@ for i, row in enumerate(lda_model[corpus]):
         break
 
 df_topics = pd.DataFrame(data_dict)
-
 contents = pd.Series(tweets)
-
 df_topics['text'] = df_lgbt['text']
 df_topics
 
