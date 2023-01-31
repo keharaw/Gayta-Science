@@ -443,6 +443,7 @@ plt.savefig("bigram_lgbtwc.png", bbox_inches='tight')
 plt.show()
 
 # Repeat the same code for the world cup dataset (world_cup_no_lgbt_tweets.csv)
+plt.savefig("bigram_wc.png", bbox_inches='tight')
 
 
 
