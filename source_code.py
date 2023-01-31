@@ -156,6 +156,14 @@ plt.savefig("df_wc_language_pie_chart.png", bbox_inches='tight')
 plt.show()
 
 # CREATING A STYLECLOUD
+
+# Importing the required packages
+!pip install stylecloud
+from wordcloud import WordCloud
+import stylecloud
+from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+from PIL import Image
+
 # Creating a new DataFrame with only the required column
 clean_df = pd.DataFrame(df_lgbt['clean_tweet'])
 
