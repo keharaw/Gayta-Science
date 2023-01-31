@@ -162,10 +162,11 @@ clean_df = pd.DataFrame(df_lgbt['clean_tweet'])
 # Exporting the new DataFrame to a CSV file
 clean_df.to_csv("clean_lgbt_column.csv", index=False)
 
-# Creating the stylecloud
+# Choosing the colour scheme for the stylecloud
 from matplotlib.colors import LinearSegmentedColormap
 cmap = LinearSegmentedColormap.from_list("33D7FF", ["#3393FF", "#334FFF", "#163C5A", "#1B71B5", "#9BB6CB"])
 
+# Creating the stylecloud
 stylecloud.gen_stylecloud(file_path='clean_lgbt_column.csv',
                           size = 1028,  
                           icon_name = 'fab fa-twitter',
