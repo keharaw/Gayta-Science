@@ -373,7 +373,6 @@ df_topics
 # Repeat above code with the only world cup dataset (world_cup_no_lgbt_tweets.csv)
 
 # CREATING A STYLECLOUD
-
 # Creating a new DataFrame with only the required column
 clean_df = pd.DataFrame(df_lgbt['clean_tweet'])
 
