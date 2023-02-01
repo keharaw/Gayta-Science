@@ -56,3 +56,7 @@ In both datasets, there is a wide range of languages represented. The leading la
 
 ### Co-Occurrence of Words
 
+| LGBTQ+ and World Cup | World Cup only |
+| --- | --- |
+| ![Chart 1](Images/bigram_lgbtwc.png) | ![Chart 2](Images/bigram_wc.png) |
+
