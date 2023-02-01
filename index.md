@@ -20,6 +20,7 @@ query = "-(lgbt OR lgbtq OR lgbtq+ OR transgender OR bisexual OR gay OR trans OR
 
 The keywords were chosen based on the belief that they would best capture the tweets relevant to our analysis. An additional component of our query was to exclude retweets. Whilst retweets can express agreement, it is not a perfect measure. They may potentially introduce bias and skew the results. Retweets can artificially inflate the popularity and visibility of certain tweets and accounts, making it difficult to get an accurate picture of the original content and perspectives being shared on the platform. Furthermore, retweets can introduce duplicate data, which can cause problems when trying to perform numerical analysis or generate visualizations based on the data.
 
+---
 
 ## Describing Our Data
 
@@ -34,7 +35,7 @@ The graph displayed above showcases the variations in the volume of tweets regar
 
 After our initial project update presentation, we received feedback to include a comparison group of tweets for our analysis. Therefore, we pulled tweets about the World Cup only. Due to timout requests from the Twitter API, we were not able to get all the tweets relevant from the last 7 days. So, we aimed to pull an amount similar to the LGBTQ+ dataset. Owing to the popularity of the World Cup, all 29,889 tweets were posted on the same day. Despite this apparent limitation, we do not anticipate any significant impact on our analysis. Our focus is on comparing the language and topics that emerge in tweets about the LGBTQ+ community and the World Cup, rather than changes over time.
 
-There was also some variation in the number of languages used in these tweets.
+### Language
 
 | LGBTQ+ and World Cup | World Cup only |
 | --- | --- |
