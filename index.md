@@ -4,13 +4,14 @@
 
 Using a combination of ggplot and matplotlib, we were able to generate visualisations of our datasets.
 
-![alt text](Images/line_chart_tweet_count_A.png)
+![alt text](Images/line_chart_tweet_count_A.png)'Tweets about the LGBTQ+ Community and the World Cup from 29/11/2022 until 15/12/2022'
 
 <div style="text-align:center;">
-  <img src="Images/line_chart_tweet_count_A.png" alt="Line chart showing tweet count for A">
+  <img src="Images/line_chart_tweet_count_A.png" alt="Tweets about the LGBTQ+ Community and the World Cup from 29/11/2022 until 15/12/2022">
   <br>
-  <caption style="color: #999;">Tweet count for account A</caption>
+  <caption style="color: #f2f2f2;">Tweet count for account A</caption>
 </div>
+
 
 
 The graph displayed above showcases the variations in the volume of tweets regarding LGBTQ+ and the World Cup over a specified time period. The fluctuations of tweets seem to coincide with major news events and when matches are played. For example, the spike on the 10th of December is related to the death of American journalist Grant Wahl who was reporting in Qatar. Zero tweets on the  December 7th is not indicative of a lack of tweets but rather a result of the data retrieval method. The data was not obtained exactly a week after the previous pull, which led to a temporary gap in the collected data for that day. Despite this limitation, we still have a substantial sample of tweets from which to carry out a comprehensive analysis.
