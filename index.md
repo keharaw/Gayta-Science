@@ -38,6 +38,11 @@ There was also some variation in the number of languages used in these tweets.
 
 ![alt text](Images/df_wc_language_pie_chart.png)
 
+| Chart 1 | Chart 2 |
+| --- | --- |
+| ![Chart 1](Images/df_both_language_pie_chart.png) | ![Chart 2](Images/df_wc_language_pie_chart.png) |
+
+
 In both datasets, there is a wide range of languages represented. The leading languages in the LGBTQ+ dataset are English, French, Spanish, Portuguese, and Italian. For the World Cup only dataset, the top five languages are English, Spanish, French, no linguistic content (such as URLs), and Indonesian. It is evident that English makes up the majority of tweets in both datasets. This is likely due to the fact that the keywords used in our query were in English, thus causing these results to be skewed. The prevalence of European Romance languages in these datasets can be attributed to the popularity of soccer in Europe and South America. These continents are home to many of the world's top football teams and attract a lot of attention from football fans who may fuel the twitter conversation around the world cup and Qatar’s human rights violations.
 
 ---
