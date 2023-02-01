@@ -56,7 +56,19 @@ In both datasets, there is a wide range of languages represented. The leading la
 
 ### Co-Occurrence of Words
 
+After conducting topic modeling, examining the co-occurrence of words within the resulting topics can provide deeper insight into the relationships between different terms and their meaning within the context of the data. By analyzing the patterns in which words appear together, we can gain a better understanding of how topics are defined and the semantic connections between the terms within each topic. 
+
+To build the network plots below, we began by constructing bigrams to identify co-occuring words. We then selected the top 20 most common bigrams to be visualised in a network plot. We restricted the sample of bigrams to the top 20 for two reasons. Firstly, there is a decline in frequency of bigrams beyond this number so the relative importance of the next few bigrams is lessened. Secondly, for visualisation purposes, the network becomes very difficult to interpret due to overlapping of networks when the sample gets too large.
+
+
 | LGBTQ+ and World Cup | World Cup only |
 | --- | --- |
 | ![Chart 1](Images/bigram_lgbtwc.png) | ![Chart 2](Images/bigram_wc.png) |
+###### *Networks of co-occuring words*
+
+Looking at the plot on the left, we see five networks. Of these, there are four salient topics: Grant Wahl’s death, migrant workers, support for human rights, and anti-LGBTQ+ policy. It suggests that people were discussing the banning of rainbow flags and the repurcussions people faced for doing so. It also highlights the human rights violations that exist in Qatar that affect not just LGBTQ+ but also migrant workers. What this demonstrates is that discussions about one marginalised group may encourage conversations about others. The frequency of Tweets about Grant Wahl is also not unexpected due to the theories that suggested his brother’s homosexuality being the reason for his “killing”.
+
+Looking at the plot on the right, the discussion around the World Cup outside of the LGBTQ+ community seems to be focused solely on football and matches itself. The prominent topics that emerge from these plots are betting, the World Cup final, platforms for streaming matches and the drama surrounding Portugal’s coach Fernando Santos. Given the highly publicised backlash against Qatar for hosting the World Cup, one might have expected other issues outside their treatment of LGBTQ+ to be a prevalent topic. For example, their treatment of migrant workers or women’s rights. Furthermore, as the first ever islamic nation to host the world cup, something celebrated by many, it would not be out of place for these discussions to occur more frequently.
+
+Overall, these diagrams paint a picture of the key topics within these samples of tweets. Going beyond topic modelling, these networks have provided context for topics and has provided better insight into the relationships between words that form the topics. What this analysis has shown is that discussion of the World Cup outside of the LGBTQ+ community seem to be solely focused around issues of football: the teams, how to watch it, and who to bet on. As soon as we bring LGBTQ+ into the picture, not only is their a discussion of the violation of their own rights, but also that of other marginalised groups. There are limitations to this analysis, mainly brought on by our sample of tweets ans this will be explored in our limitations section. However, the key takeaway from here is that the conversation about the World Cup becomes very sinister once Qatar’s LGBTQ+ violations are brought into the picture.
 
