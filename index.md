@@ -73,6 +73,7 @@ In both datasets, there is a wide range of languages represented. The leading la
 | Topic 1 | Topic 2|
 | --- | --- |
 | ![Chart 1](Images/wc_1.png) | ![Chart 2](Images/wc_2.png) |
+
 | Topic 3 |
 | --- |
 | ![Chart 3](Images/wc_3.png) 
