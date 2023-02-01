@@ -9,7 +9,7 @@ Using a combination of ggplot and matplotlib, we were able to generate visualisa
 <div style="text-align:center;">
   <img src="Images/line_chart_tweet_count_A.png" alt="Tweets about the LGBTQ+ Community and the World Cup from 29/11/2022 until 15/12/2022">
   <br>
-  <caption style="color: #f2f2f2;">Tweets about the LGBTQ+ Community and the World Cup from 29/11/2022 until 15/12/2022</caption>
+  <caption style="color: #f2f2f2; font-style: italic;">Tweets about the LGBTQ+ Community and the World Cup from 29/11/2022 until 15/12/2022</caption>
 </div>
 
 
