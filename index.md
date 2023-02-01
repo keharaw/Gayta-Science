@@ -13,7 +13,7 @@ query = "(lgbt OR lgbtq OR lgbtq+ OR transgender OR bisexual OR gay OR trans OR 
 
 ```
 query = "-(lgbt OR lgbtq OR lgbtq+ OR transgender OR bisexual OR gay OR trans OR queer OR lesbian) ((soccer OR football OR (world cup)) OR qatar) -is:retweet"
-``` . 
+``` 
 
 ###### Query for World Cup only tweets.
 
