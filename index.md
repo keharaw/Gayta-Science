@@ -67,8 +67,16 @@ In both datasets, there is a wide range of languages represented. The leading la
 | Topic 3 | Topic 4|
 | --- | --- |
 | ![Chart 3](Images/lgbt_3.png) | ![Chart 4](Images/lgbt_4.png) |
+###### *Visualisation of Topic Model for LGBTQ+ and World Cup Tweets*
 
-###### *Style Clouds showing most frequent words in both samples*
+#### World Cup Only
+| Topic 1 | Topic 2|
+| --- | --- |
+| ![Chart 1](Images/wc_1.png) | ![Chart 2](Images/wc_2.png) |
+| Topic 3 |
+| --- |
+| ![Chart 3](Images/wc_3.png) 
+###### *Visualisation of Topic Model for World Cup Only Tweets*
 
 ### Co-Occurrence of Words
 
