@@ -1,5 +1,9 @@
 # Exploring the Intersection of Sports and Social Issues: A Textual Analysis of World Cup and LGBTQ+ Tweets
 
+## Introduction
+
+## Motivations
+
 ## Data
 
 ### Data Retrieval
@@ -49,6 +53,8 @@ In both datasets, there is a wide range of languages represented. The leading la
 ---
 
 ## Data Analysis
+
+### Data Cleaning and Preprocessing
 
 ### Style Clouds
 
