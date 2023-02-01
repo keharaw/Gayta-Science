@@ -9,7 +9,7 @@ Using a combination of ggplot and matplotlib, we were able to generate visualisa
 <div style="text-align:center;">
   <img src="Images/line_chart_tweet_count_A.png" alt="Line chart showing tweet count for A">
   <br>
-  <caption>Tweet count for account A</caption>
+  <caption style="color: #999;">Tweet count for account A</caption>
 </div>
 
 
