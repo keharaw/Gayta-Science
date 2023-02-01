@@ -52,6 +52,12 @@ In both datasets, there is a wide range of languages represented. The leading la
 
 ### Style Clouds
 
+| LGBTQ+ and World Cup | World Cup only |
+| --- | --- |
+| ![Chart 1](Images/stylecloud_lgbt.png) | ![Chart 2](Images/stylecloud_wc.png) |
+###### *Style Clouds showing most frequent words in both samples*
+
+
 ### Topic Modelling
 
 ### Co-Occurrence of Words
@@ -72,3 +78,7 @@ Looking at the plot on the right, the discussion around the World Cup outside of
 
 Overall, these diagrams paint a picture of the key topics within these samples of tweets. Going beyond topic modelling, these networks have provided context for topics and has provided better insight into the relationships between words that form the topics. What this analysis has shown is that discussion of the World Cup outside of the LGBTQ+ community seem to be solely focused around issues of football: the teams, how to watch it, and who to bet on. As soon as we bring LGBTQ+ into the picture, not only is their a discussion of the violation of their own rights, but also that of other marginalised groups. There are limitations to this analysis, mainly brought on by our sample of tweets ans this will be explored in our limitations section. However, the key takeaway from here is that the conversation about the World Cup becomes very sinister once Qatar’s LGBTQ+ violations are brought into the picture.
 
+---
+## Limitations and Future Scope for Research
+
+## Conclusion
