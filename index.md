@@ -12,6 +12,12 @@ After our initial project update presentation, we received feedback to include a
 
 There was also some variation in the number of languages used in these tweets.
 
+<p float="left">
+  <img src="Images/df_both_language_pie_chart.png" width="100" />
+  <img src="Images/df_wc_language_pie_chart.png" width="100" /> 
+</p>
+
+
 
 ![alt text](Images/df_both_language_pie_chart.png) ![alt text](Images/df_wc_language_pie_chart.png)
 
