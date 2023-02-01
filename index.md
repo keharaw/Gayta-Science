@@ -23,7 +23,9 @@ The keywords were chosen based on the belief that they would best capture the tw
 
 ## Describing Our Data
 
-Using a combination of ggplot and matplotlib, we were able to generate visualisations of our datasets.  
+Using a combination of ggplot and matplotlib, we were able to generate visualisations of our datasets.
+
+## Tweets over time
 
 ![alt text](Images/line_chart_tweet_count_A.png)
 ###### *Tweets about the LGBTQ+ Community and the World Cup from 29/11/2022 until 15/12/2022*
