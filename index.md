@@ -12,10 +12,18 @@ After our initial project update presentation, we received feedback to include a
 
 There was also some variation in the number of languages used in these tweets.
 
+
 <p float="left">
-  <img src="Images/df_both_language_pie_chart.png" width="100" />
-  <img src="Images/df_wc_language_pie_chart.png" width="100" /> 
+  <figure>
+    <img src="Images/df_both_language_pie_chart.png" width="500" />
+    <figcaption>Breakdown of LGBTQ+ and World Cup Tweets by Language</figcaption>
+  </figure>
+  <figure>
+    <img src="Images/df_wc_language_pie_chart.png" width="500" />
+    <figcaption>Breakdown of World Cup Only Tweets by Language</figcaption>
+  </figure>
 </p>
+
 
 
 
