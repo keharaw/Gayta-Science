@@ -6,16 +6,16 @@ The source for our data is the Twitter API. To make it easier to obtain data, we
 
 Under elevated access, we were able to pull 23637 tweets that matched our criteria for tweets about the LGBTQ+ community within the context of the 2022 FIFA World Cup that was held in Qatar. Restrictions under this level this access includes being only able to pull tweets from the last 7 days. Thus, for our LGBTQ+ dataset, we pulled data from the API on two separate occasions. These datasets were subsequently merged and covers tweets over the period from the 29th of November 2022 to the 15th of December 2022. We then applied a similar process to pull 29889 tweets underpinning the conversation about the world cup outside of the heavily publicised issue of LGBTQ+ rights. The period covered by this dataset covers the 15th of December 2022 only. The reason for this is covered in the next section. For both criteria, we obtained information such as the tweet text, language and the time it was posted. For the full dataset, please see our repository (link). The queries that contain the exact keywords we filtered for are found below:
 
+###### *Query for LGBTQ+ and World Cup tweets*
 ```
 query = "(lgbt OR lgbtq OR lgbtq+ OR transgender OR bisexual OR gay OR trans OR queer OR lesbian) ((soccer OR football OR (world cup)) OR qatar) -is:retweet"
 ```
-###### Query for LGBTQ+ and World Cup tweets
 
+###### *Query for World Cup only tweets*
 ```
 query = "-(lgbt OR lgbtq OR lgbtq+ OR transgender OR bisexual OR gay OR trans OR queer OR lesbian) ((soccer OR football OR (world cup)) OR qatar) -is:retweet"
 ``` 
 
-###### Query for World Cup only tweets.
 
 
 The keywords were chosen based on the belief that they would best capture the tweets relevant to our analysis. An additional component of our query was to exclude retweets. Whilst retweets can express agreement, it is not a perfect measure. They may potentially introduce bias and skew the results. Retweets can artificially inflate the popularity and visibility of certain tweets and accounts, making it difficult to get an accurate picture of the original content and perspectives being shared on the platform. Furthermore, retweets can introduce duplicate data, which can cause problems when trying to perform numerical analysis or generate visualizations based on the data.
