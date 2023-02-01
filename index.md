@@ -60,6 +60,16 @@ In both datasets, there is a wide range of languages represented. The leading la
 
 ### Topic Modelling
 
+#### LGBTQ+ and World Cup
+| Topic 1 | Topic 2|
+| --- | --- |
+| ![Chart 1](Images/lgbt_1.png) | ![Chart 2](Images/lgbt_2.png) |
+| Topic 3 | Topic 4|
+| --- | --- |
+| ![Chart 3](Images/lgbt_3.png) | ![Chart 4](Images/lgbt_4.png) |
+
+###### *Style Clouds showing most frequent words in both samples*
+
 ### Co-Occurrence of Words
 
 After conducting topic modeling, examining the co-occurrence of words within the resulting topics can provide deeper insight into the relationships between different terms and their meaning within the context of the data. By analyzing the patterns in which words appear together, we can gain a better understanding of how topics are defined and the semantic connections between the terms within each topic. 
