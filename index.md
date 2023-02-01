@@ -12,20 +12,29 @@ After our initial project update presentation, we received feedback to include a
 
 There was also some variation in the number of languages used in these tweets.
 
+<style>
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .image-container figure {
+    width: 100%;
+  }
+</style>
 
-
-<div style="width: 90%;">
-  <p float="left">
-    <figure>
-      <img src="Images/df_both_language_pie_chart.png" width="45%" />
-      <figcaption>Breakdown of LGBTQ+ and World Cup Tweets by Language</figcaption>
-    </figure>
-    <figure>
-      <img src="Images/df_wc_language_pie_chart.png" width="45%" />
-      <figcaption>Breakdown of World Cup Only Tweets by Language</figcaption>
-    </figure>
-  </p>
+<div class="image-container">
+  <figure>
+    <img src="Images/df_both_language_pie_chart.png" />
+    <figcaption>Breakdown of LGBTQ+ and World Cup Tweets by Language</figcaption>
+  </figure>
+  <figure>
+    <img src="Images/df_wc_language_pie_chart.png" />
+    <figcaption>Breakdown of World Cup Only Tweets by Language</figcaption>
+  </figure>
 </div>
+
+
+
 
 
 
