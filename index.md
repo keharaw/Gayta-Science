@@ -40,7 +40,7 @@ Using a combination of the ggplot and matplotlib packages, we were able to gener
 
 The graph displayed above showcases the variations in the volume of tweets regarding LGBTQ+ and the World Cup over our time period. The fluctuations of tweets seem to coincide with major news events and when matches are played. For example, the spike on the 10th of December is related to the death of American journalist Grant Wahl who was reporting in Qatar. We have some missing data since we did not pull tweets exactly seven days apart. Despite this limitation, we still have a substantial sample of tweets from which to carry out a comprehensive analysis.
 
-At a later stage, we pulled World Cup only tweets for a comparison group. Due to timout requests from the Twitter API, we were not able to get all the tweets relevant from the last seven days. Owing to the popularity of the World Cup, all 29,889 tweets were posted on the same day. Despite this apparent limitation, we do not anticipate any significant impact on our analysis. Our focus is on comparing the language and topics that emerge in tweets about the LGBTQ+ community and the World Cup, rather than changes over time.
+At a later stage, we pulled World Cup only tweets for a comparison group. Due to timeout requests from the Twitter API, we were not able to get all the tweets relevant from the last seven days. Owing to the popularity of the World Cup, all 29,889 tweets were posted on the same day. Despite this apparent limitation, we do not anticipate any significant impact on our analysis. Our focus is on comparing the language and topics that emerge in tweets about the LGBTQ+ community and the World Cup, rather than changes over time.
 
 #### Language
 
@@ -49,9 +49,7 @@ At a later stage, we pulled World Cup only tweets for a comparison group. Due to
 | ![Chart 1](Images/df_both_language_pie_chart.png) | ![Chart 2](Images/df_wc_language_pie_chart.png) |
 ###### *Breakdown of tweets by language*
 
-
-In both datasets, there is a wide range of languages represented. The leading languages in the LGBTQ+ dataset are English, French, Spanish, Portuguese, and Italian. For the World Cup only dataset, these are English, Spanish, French, no linguistic content (such as URLs), and Indonesian. It is evident that English makes up the majority of tweets in both datasets. This is likely due to the fact that the keywords used in our query were in English, thus causing these results to be skewed. The prevalence of European Romance languages in these datasets can be attributed to the popularity of football in Europe and South America. These continents are home to many of the world's top football teams and attract a lot of attention from football fans who may fuel the twitter conversation around the World Cup and Qatar’s human rights violations.
-
+Both datasets have a variety of languages, with English dominating. This is due to our choice of keywords which skew the tweets towards English ones. The leading languages in the LGBTQ+ and World Cup dataset are English, French, Spanish, Portuguese, and Italian. The top five languages in the World Cup only dataset are English, Spanish, French, no linguistic content, and Indonesian. The prevalence of European languages may be due to football popularity in Europe and South America where fans might fuel the twitter conversation around the World Cup and Qatar’s human rights violations.
 ---
 
 ## Data Analysis
