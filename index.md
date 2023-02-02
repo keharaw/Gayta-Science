@@ -211,11 +211,11 @@ The next step for this project would be to train our own machine learning model 
 
 ## Footnotes
 
-[^1] https://www.cfr.org/backgrounder/hate-speech-social-media-global-comparisons
-[^2] https://www.npr.org/2022/07/13/1111113396/glaad-social-media-report-lgbtq-online-harassment
-[^3] https://www.nytimes.com/2022/12/02/technology/twitter-hate-speech.html
-[^4] https://www.attitude.co.uk/news/anti-lgbtq-abuse-has-increased-on-twitter-since-elon-musk-took-over-says-report-421192/
-[^5] https://www.bbc.co.uk/sport/football/61635340
+[^1]: https://www.cfr.org/backgrounder/hate-speech-social-media-global-comparisons
+[^2]: https://www.npr.org/2022/07/13/1111113396/glaad-social-media-report-lgbtq-online-harassment
+[^3]: https://www.nytimes.com/2022/12/02/technology/twitter-hate-speech.html
+[^4]: https://www.attitude.co.uk/news/anti-lgbtq-abuse-has-increased-on-twitter-since-elon-musk-took-over-says-report-421192/
+[^5]: https://www.bbc.co.uk/sport/football/61635340
 
 
 
