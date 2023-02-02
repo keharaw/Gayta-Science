@@ -3,7 +3,7 @@
 
 ## Introduction
 
-With the growth of social media, hate speech has taken on new forms which has also been linked to a global increase in violence against minorities [^1]. The most recent report by GLAAD - the world’s largest LGBTQ+ media advocacy organisation - found that 84% of LGBTQ+ adults believe there is not enough protection [^2] on social media to prevent harassment. This coincides with Elon Musk’s acquisition of Twitter - Hate speech and conspiracy theories [^3] have risen on Twitter after Musk took over and experts suggest it will get worse under the guise of ‘free speech’. This also includes a surge in anti-LGBTQ+ abuse [^4]. Consequently, our group wanted to investigate the growth of hate speech online against one of the most marginalised groups in our communities. 
+With the growth of social media, hate speech has taken on new forms which has also been linked to a global increase in violence against minorities [^1]. The most recent report by GLAAD - the world’s largest LGBTQ+ media advocacy organisation - found that 84% of LGBTQ+ adults believe there is not enough protection on social media to prevent harassment[^2]. This coincides with Elon Musk’s acquisition of Twitter - Hate speech and conspiracy theories have risen on Twitter after Musk took over and experts suggest it will get worse under the guise of ‘free speech’[^3]. This also includes a surge in anti-LGBTQ+ abuse [^4]. Consequently, our group wanted to investigate the growth of hate speech online against one of the most marginalised groups in our communities. 
 
 ### *Motivations*
 
