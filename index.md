@@ -3,11 +3,11 @@
 
 ## Introduction
 
-With the growth of social media, hate speech has taken on new forms which has also been linked to a global increase in violence against minorities [^1]. The most recent report by GLAAD - the world’s largest LGBTQ+ media advocacy organisation - found that 84% of LGBTQ+ adults believe there is not enough protection on social media to prevent harassment[^2]. This coincides with Elon Musk’s acquisition of Twitter - Hate speech and conspiracy theories have risen on Twitter after Musk took over and experts suggest it will get worse under the guise of ‘free speech’[^3]. This also includes a surge in anti-LGBTQ+ abuse [^4]. Consequently, our group wanted to investigate the growth of hate speech online against one of the most marginalised groups in our communities. 
+With the growth of social media, hate speech has taken on new forms which has also been linked to a global increase in violence against minorities.[^1] The most recent report by GLAAD - the world’s largest LGBTQ+ media advocacy organisation - found that 84% of LGBTQ+ adults believe there is not enough protection on social media to prevent harassment.[^2] This coincides with Elon Musk’s acquisition of Twitter - Hate speech and conspiracy theories have risen on Twitter after Musk took over and experts suggest it will get worse under the guise of ‘free speech’.[^3] This also includes a surge in anti-LGBTQ+ abuse.[^4] Consequently, our group wanted to investigate the growth of hate speech online against one of the most marginalised groups in our communities. 
 
 ### *Motivations*
 
-The 2022 Fifa World Cup hosted in Qatar presented a critical event in which LGBTQ+ rights became the forefront of debates. Qatar is the first Arab nation to host the tournament, and marked a return to normality since the COVID-19 pandemic. However, this decision is not one without controversy. From migrant workers to accusations of a corrupt bidding process, the media has reported on many issues in Qatar. One major debate has been that of the LGBTQ+ community. Homosexual relationships are illegal under Qatar’s Islamic law and can be punishable by death [^5]. Thus, players and fans were unable to freely express their LGBTQ+ identity or support. This led to widespread debates on social media regarding different cultures, values and beliefs. We aim to explore the general attitude of users towards the World Cup in Qatar and compare these to tweets and topics that emerged within an LGBTQ+ discourse.
+The 2022 Fifa World Cup hosted in Qatar presented a critical event in which LGBTQ+ rights became the forefront of debates. Qatar is the first Arab nation to host the tournament, and marked a return to normality since the COVID-19 pandemic. However, this decision is not one without controversy. From migrant workers to accusations of a corrupt bidding process, the media has reported on many issues in Qatar. One major debate has been that of the LGBTQ+ community. Homosexual relationships are illegal under Qatar’s Islamic law and can be punishable by death.[^5] Thus, players and fans were unable to freely express their LGBTQ+ identity or support. This led to widespread debates on social media regarding different cultures, values and beliefs. We aim to explore the general attitude of users towards the World Cup in Qatar and compare these to tweets and topics that emerged within an LGBTQ+ discourse.
 
 ### *Aims*
 
@@ -17,9 +17,9 @@ In this project, we use textual analysis to answer the following research questi
 
 We hypothesise that: 
 
-1. the tweets about our topic of interest will feature discussions around human rights violations and homophobia and;
+1. The tweets will feature discussions around human rights violations and homophobia and;
 
-2. When we filter out LGBTQ+ and focus solely on the World Cup, the discussion will be more football-centric but potentially include other political issues in Qatar. 
+2. When we filter out LGBTQ+ and focus solely on the World Cup, the discussion will be more football-centric and potentially include other political issues in Qatar. 
 
 ---
 
@@ -44,7 +44,6 @@ query = "-(lgbt OR lgbtq OR lgbtq+ OR transgender OR bisexual OR gay OR trans OR
 ``` 
 
 The keywords were chosen based on the assumption that they would best capture the tweets relevant to our analysis. An additional component of our query was to exclude retweets. Retweets are not a reliable measure of agreement as they can introduce bias, skew results, artificially inflate popularity and visibility, and create duplicates. This makes it challenging to accurately assess and visualise original content on the platform.
-
 
 ### Describing Our Data
 
@@ -75,7 +74,7 @@ Both datasets have a variety of languages, with English dominating. This is due 
 
 We used topic modelling, style clouds, and co-occurrence analysis to explore the underlying themes, sentiments, and language patterns present in the data. These techniques allow us to identify hidden topics, visualise the most frequently used words, and understand relationships between terms. 
 
-### Data Cleaning and Pre-processing
+### Data Cleaning and Preprocessing
 
 Raw text data often includes unwanted elements such as numbers, punctuation, and characters that can bias the results. Preprocessing removes these elements and standardises the format, resulting in cleaner and more accurate text representation.
 
@@ -168,7 +167,6 @@ Topic 2 focuses mainly on betting. It includes mostly fans interacting with bett
 
 Topic 3 is mainly discussions about teams and their coaches. Users generally tweeted about the “potential” for a better World Cup if teams and their management improved. The most important difference here is that players are critiqued for their merit and actions during matches, whereas in the LGBTQ+ dataset above, they are critiqued for their political and ideological stance. 
 
-
 ### Co-Occurrence of Words
 
 Whilst topic modelling provides insight into grouping of terms, examining the co-occurence of words helps us understand the context and semantic connections between them. 
@@ -186,7 +184,8 @@ The diagrams above show that discussions about the World Cup tend to focus on fo
 Our hypothesis assumed that in the World Cup only network, issues beyond LGBTQ+ rights may be prominent, such as the treatment of migrant workers. However, this is not the case. Similar to our topic modelling, it is heavily football-centric. Focusing on tweets about LGBTQ+ revealed that a multitude of human rights issues are being discussed online. When we limit it to only the World Cup and exclude LGBTQ+ tweets, these various issues are not prominently discussed. The media also extensively covered the inability of fans to drink alcohol in Qatar, yet there was little or no mention of alcohol in either dataset. This reveals two things: on the one hand, what the news deems as a big problem may not be what users genuinely care about, and on the other, it shows how people may be willing to accept cultural differences as long as it is not an attack on their individual identity. There are limitations to this analysis, mainly due to our sample of tweets, which will be addressed in the limitations section. However, the key conclusion is that the conversation about the World Cup takes a dark turn when Qatar's LGBTQ+ violations are brought into consideration.
 
 ---
-## Limitations 
+
+## Challenges 
 
 ### *Twitter API*
 
@@ -195,7 +194,6 @@ Our access level to Twitter's API posed difficulties as we couldn’t search the
 ### *Topic Modelling*
 
 The main challenge we faced with pyLDAvis was that it did not automatically produce the most coherent model. At first, the model was difficult to interpret. Some words were repeated, some topics were overlapping and we could not clearly distinguish what the topics were. We acknowledge that the model would never fit perfectly as we did not train it ourselves. However, we were able to optimise our model by running the code several times and repeatedly adjusting parameters to draw meaningful conclusions. 
-
 
 ---
 
@@ -211,11 +209,11 @@ The next step for this project would be to train our own machine learning model 
 
 ## Footnotes
 
-[^1]: https://www.cfr.org/backgrounder/hate-speech-social-media-global-comparisons
-[^2]: https://www.npr.org/2022/07/13/1111113396/glaad-social-media-report-lgbtq-online-harassment
-[^3]: https://www.nytimes.com/2022/12/02/technology/twitter-hate-speech.html
-[^4]: https://www.attitude.co.uk/news/anti-lgbtq-abuse-has-increased-on-twitter-since-elon-musk-took-over-says-report-421192/
-[^5]: https://www.bbc.co.uk/sport/football/61635340
+[^1]: [Hate Speech on Social Media: Global Comparisons](https://www.cfr.org/backgrounder/hate-speech-social-media-global-comparisons)
+[^2]: [GLAAD gives social media giants poor grades over lack of protections for LGBTQ users](https://www.npr.org/2022/07/13/1111113396/glaad-social-media-report-lgbtq-online-harassment)
+[^3]: [Hate Speech’s Rise on Twitter Is Unprecedented, Researchers Find](https://www.nytimes.com/2022/12/02/technology/twitter-hate-speech.html)
+[^4]: [Anti-LGBTQ abuse has increased on Twitter since Elon Musk took over, report finds](https://www.attitude.co.uk/news/anti-lgbtq-abuse-has-increased-on-twitter-since-elon-musk-took-over-says-report-421192/)
+[^5]: [World Cup finals: Why is Qatar 2022 controversial?](https://www.bbc.co.uk/sport/football/61635340)
 
 
 
