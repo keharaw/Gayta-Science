@@ -6,7 +6,7 @@
 
 ## Data
 
-The source of our data for the analysis was the Twitter API. The API provides real-time data with a large volume of tweets, making it a valuable source for analysis and research. Its user-friendly interface, customizable options, versatility, and reliability make it a powerful tool for social media analysis, sentiment analysis, marketing research, and more.
+The source of our data for the analysis was the Twitter API. The API provides real-time data with a large volume of tweets, making it a valuable source for analysis and research. Its user-friendly interface, customisable options, versatility, and reliability make it a powerful tool for social media analysis, sentiment analysis, marketing research, and more.
 
 ### Data Retrieval
 
