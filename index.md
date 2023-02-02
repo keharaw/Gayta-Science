@@ -69,6 +69,7 @@ We cleaned text data by converting to lowercase, expanding contractions, removin
 ### Style Clouds
 
 | LGBTQ+ and World Cup | World Cup only |
+
 | --- | --- |
 | ![Chart 1](Images/stylecloud_lgbt.png) | ![Chart 2](Images/stylecloud_wc.png) |
 ###### *Style Clouds showing most frequent words in both samples*
@@ -120,5 +121,5 @@ The diagrams above show that discussions about the World Cup tend to focus on fo
 
 ## Footnotes
 
-1
+
 
