@@ -119,6 +119,6 @@ The diagrams above show that discussions about the World Cup tend to focus on fo
 ---
 
 ## Footnotes
-1
+
 
 
