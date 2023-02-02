@@ -130,6 +130,10 @@ plt.show()
 # Do the same but for World Cup only tweets inside df_wc and saving the image.
 plt.savefig("df_wc_language_pie_chart.png", bbox_inches='tight')
 
+# checking number of sensitive tweets. Apply same code to df_wc
+num_sensitive = df_lgbt['possibly_sensitive'].sum()
+num_sensitive
+
 # CLEANING TWEETS AND CREATING VISUALISATIONS
 
 # Import required packages
