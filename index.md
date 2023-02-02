@@ -33,12 +33,12 @@ To facilitate data collection, we utilised [Tweepy](https://www.tweepy.org/) - a
 
 Under elevated access, we pulled 23,637 tweets for our LGBTQ+ and World Cup dataset (hereafter, LGBTQ+ dataset). This level restricts us to only pull tweets from the last seven days. Thus, we pulled data twice and merged datasets. This merged dataset covers tweets from the 29th of November to the 15th of December 2022. We then applied a similar process to pull 29,889 tweets about the World Cup only (hereafter, World Cup dataset). This dataset only covers the 15th of December 2022, which will be discussed in the next section. Both datasets include information such as the tweet text, language and the time it was posted. For the full dataset, please see our [repository](https://github.com/keharaw/Gayta-Science). The queries that contain the exact keywords we filtered for are found below:
 
-###### *Query for LGBTQ+ and World Cup tweets*
+###### *Query for LGBTQ+ dataset*
 ```
 query = "(lgbt OR lgbtq OR lgbtq+ OR transgender OR bisexual OR gay OR trans OR queer OR lesbian) ((soccer OR football OR (world cup)) OR qatar) -is:retweet"
 ```
 
-###### *Query for World Cup only tweets*
+###### *Query for World Cup dataset*
 ```
 query = "-(lgbt OR lgbtq OR lgbtq+ OR transgender OR bisexual OR gay OR trans OR queer OR lesbian) ((soccer OR football OR (world cup)) OR qatar) -is:retweet"
 ``` 
