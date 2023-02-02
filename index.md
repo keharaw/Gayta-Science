@@ -13,7 +13,8 @@ The source of our data for the analysis was the Twitter API. The API provides re
 
 To facilitate data retrieval, we utilised [Tweepy](https://www.tweepy.org/) to access the [recent tweet endpoint](https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-recent). Tweepy is a convenient Python library that makes interacting with the Twitter API very straightforward. 
 
-Under elevated access, we were able to pull 23,637 tweets that matched our criteria for LGBTQ+ related tweets within the context of the 2022 FIFA World Cup in Qatar. Restrictions under this level this access include being only able to pull tweets from the last seven days. Thus, for our LGBTQ+ and World Cup dataset, we pulled data from the API on two separate occasions. These datasets were subsequently merged and covers the period from the 29th of November 2022 to the 15th of December 2022. Due to limits on the number of results that can be returned in a single request, we used a paginator to obtain as many tweets as possible. We then applied a similar process to pull 29,889 tweets underpinning the conversation about the World Cup outside of the heavily publicised issue of LGBTQ+ rights. The period covered by this dataset is the 15th of December 2022 only. The reason for this is explained in the next section. For both datasets, we obtained information such as the tweet text, language and the time it was posted. For the full dataset, please see our [repository](https://github.com/keharaw/Gayta-Science). The queries that contain the exact keywords we filtered for are found below:
+
+Under elevated access, we pulled 23637 tweets for our LGBTQ+ and World Cup dataset. This level restricts us to only pull tweets from the last seven days so we pulled data twice and merged datasets. This merged dataset covers tweets from 29th of November to the 15th of December 2022. We then applied a similar process to pull 29889 tweets about the World Cup only. The period covered by this dataset covers the 15th of December 2022 only. The reason for this is covered in the next section. For both datasets, we obtained information such as the tweet text, language and the time it was posted. For the full dataset, please see our [repository](https://github.com/keharaw/Gayta-Science). The queries that contain the exact keywords we filtered for are found below:
 
 ###### *Query for LGBTQ+ and World Cup tweets*
 ```
@@ -25,9 +26,7 @@ query = "(lgbt OR lgbtq OR lgbtq+ OR transgender OR bisexual OR gay OR trans OR 
 query = "-(lgbt OR lgbtq OR lgbtq+ OR transgender OR bisexual OR gay OR trans OR queer OR lesbian) ((soccer OR football OR (world cup)) OR qatar) -is:retweet"
 ``` 
 
-
-
-The keywords were chosen because they best capture the tweets relevant to our analysis. An additional component of our query was to exclude retweets. Whilst retweets can express agreement, it is not a perfect measure. They may potentially introduce bias and skew the results. Retweets can artificially inflate the popularity and visibility of certain tweets and accounts, making it difficult to get an accurate picture of the original content and perspectives being shared on the platform. Furthermore, retweets can introduce duplicate data, which can cause problems when trying to perform numerical analysis or generate visualisations based on the data.
+The keywords were chosen based on the assumption that they would best capture the tweets relevant to our analysis. An additional component of our query was to exclude retweets. Retweets are not a reliable measure of agreement as they can introduce bias, skew results, artificially inflate popularity and visibility, and create duplicates in data. This makes it challenging to accurately assess and visualise original content and perspectives on the platform.
 
 
 ### Describing Our Data
