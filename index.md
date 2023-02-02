@@ -1,4 +1,3 @@
-# Exploring the Intersection of Sports and Social Issues: A Textual Analysis of World Cup and LGBTQ+ Tweets
 *Idil Balci, Kehara Warnakulasuriya, and Jessy Yang*
 
 ## Introduction
