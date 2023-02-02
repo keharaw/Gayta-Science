@@ -345,7 +345,9 @@ pyLDAvis.enable_notebook()
 vis = pyLDAvis.gensim_models.prepare(lda_model, corpus, dictionary=lda_model.id2word)
 vis
 
-# Repeat above code with the only world cup datframe df_wc and save as cleaned tweets in csv for records.
+# Repeat above code with the only world cup datframe df_wc and save as cleaned tweets in csv for records. 
+# Additional code to remove empty tweets following the cleaning and preprocessing.
+df_wc = df_wc[df_wc['clean_tweet'].apply(bool)]
 df_wc.to_csv('final_clean_tweets_wc.csv', index=False)
 
 # CREATING A STYLECLOUD
