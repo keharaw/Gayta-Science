@@ -6,9 +6,11 @@
 
 ## Data
 
+The source of our data for the analysis was the Twitter API. The API provides real-time data with a large volume of tweets, making it a valuable source for analysis and research. Its user-friendly interface, customizable options, versatility, and reliability make it a powerful tool for social media analysis, sentiment analysis, marketing research, and more.
+
 ### Data Retrieval
 
-The source for our data is the Twitter API. To facilitate data retrieval, we utilised [Tweepy](https://www.tweepy.org/) to access the [recent tweet endpoint](https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-recent). Tweepy is a convenient Python library makes interacting with the Twitter API very straightforward. 
+To facilitate data retrieval, we utilised [Tweepy](https://www.tweepy.org/) to access the [recent tweet endpoint](https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-recent). Tweepy is a convenient Python library makes interacting with the Twitter API very straightforward. 
 
 Under elevated access, we were able to pull 23637 tweets that matched our criteria for tweets about the LGBTQ+ community within the context of the 2022 FIFA World Cup that was held in Qatar. Restrictions under this level this access includes being only able to pull tweets from the last 7 days. Thus, for our LGBTQ+ dataset, we pulled data from the API on two separate occasions. These datasets were subsequently merged and covers tweets over the period from the 29th of November 2022 to the 15th of December 2022. Due to limits on the number of results that can be returned in a single request, we used a paginator to obtain as many tweets as possible before. We then applied a similar process to pull 29889 tweets underpinning the conversation about the world cup outside of the heavily publicised issue of LGBTQ+ rights. The period covered by this dataset covers the 15th of December 2022 only. The reason for this is covered in the next section. For both criteria, we obtained information such as the tweet text, language and the time it was posted. For the full dataset, please see our [repository](https://github.com/keharaw/Gayta-Science). The queries that contain the exact keywords we filtered for are found below:
 
@@ -118,4 +120,12 @@ Overall, these diagrams paint a picture of the key topics within these samples o
 ---
 ## Limitations and Future Scope for Research
 
+---
+
 ## Conclusion
+
+---
+
+## Footnotes
+
+
