@@ -106,7 +106,7 @@ To strengthen our analysis, we created an interactive topic model using the pyLD
 | --- | --- |
 | ![Chart 3](Images/lgbt_3.png) | ![Chart 4](Images/lgbt_4.png) |
 
-###### *Visualisation of Topic Model for LGBTQ+ and World Cup Tweets*
+###### *Visualisation of Topic Model for LGBTQ+ dataset*
 
 **Topic 1: Rights and Respect**
 
@@ -152,7 +152,7 @@ This tweet was written in reference to Morocco winning against Spain. Many tweet
 | --- |
 | ![Chart 3](Images/wc_3.png) 
 
-###### *Visualisation of Topic Model for World Cup Only Tweets*
+###### *Visualisation of Topic Model for World Cup dataset*
 
 **Topic 1: Support and Excitement**
 
