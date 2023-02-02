@@ -73,21 +73,25 @@ We cleaned text data by converting to lowercase, expanding contractions, removin
 | LGBTQ+ and World Cup | World Cup only |
 | --- | --- |
 | ![Chart 1](Images/stylecloud_lgbt.png) | ![Chart 2](Images/stylecloud_wc.png) |
+
 ###### *Style Clouds showing most frequent words in both samples*
 
 
 ### Topic Modelling
 
 #### LGBTQ+ and World Cup
+
 | Topic 1 | Topic 2|
 | --- | --- |
 | ![Chart 1](Images/lgbt_1.png) | ![Chart 2](Images/lgbt_2.png) |
 | Topic 3 | Topic 4|
 | --- | --- |
 | ![Chart 3](Images/lgbt_3.png) | ![Chart 4](Images/lgbt_4.png) |
+
 ###### *Visualisation of Topic Model for LGBTQ+ and World Cup Tweets*
 
 #### World Cup Only
+
 | Topic 1 | Topic 2|
 | --- | --- |
 | ![Chart 1](Images/wc_1.png) | ![Chart 2](Images/wc_2.png) |
@@ -95,6 +99,7 @@ We cleaned text data by converting to lowercase, expanding contractions, removin
 | Topic 3 |
 | --- |
 | ![Chart 3](Images/wc_3.png) 
+
 ###### *Visualisation of Topic Model for World Cup Only Tweets*
 
 ### Co-Occurrence of Words
@@ -107,6 +112,7 @@ To build the network plots below, we began by constructing bigrams to identify c
 | LGBTQ+ and World Cup | World Cup only |
 | --- | --- |
 | ![Chart 1](Images/bigram_lgbtwc.png) | ![Chart 2](Images/bigram_wc.png) |
+
 ###### *Networks of co-occuring words*
 
 The diagrams above show that discussions about the World Cup tend to focus on football-related topics such as betting, matches, and team drama, but when the LGBTQ+ community is brought into consideration, discussions also encompass violations of their rights and those of other marginalised groups. The frequency of tweets about Grant Wahl in the LGBTQ+ and World Cup diagram is likely due to the theories explained earlier. It also demonstrates that discussions surrounding one marginalised group may encourage conversations about others who face similar perils. In the World Cup only network, one might have expected other issues besides their treatment of LGBTQ+ to be a prominent topic, such as their treatment of migrant workers or the conflict between football and Islamic traditions, particularly regarding the consumption of alcohol. It is clear that this is not the case. There are limitations to this analysis, mainly due to our sample of tweets, which will be addressed in the limitations section. However, the key conclusion is that the conversation about the World Cup takes a dark turn when Qatar's LGBTQ+ violations are brought into consideration.
