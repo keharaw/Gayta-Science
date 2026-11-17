@@ -1,4 +1,4 @@
-*By Kehara Warnakulasuriya and Jessy Yang*
+*By Kehara Warnakulasuriya, Idil Balci and Jessy Yang*
 
 ## Introduction
 
