@@ -1,3 +1,6 @@
+---
+layout: default
+---
 *By Kehara Warnakulasuriya, Idil Balci and Jessy Yang*
 
 ## Introduction
